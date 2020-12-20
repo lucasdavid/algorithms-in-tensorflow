@@ -1,0 +1,10 @@
+{
+    "keys": {
+        "command": {
+            "bind": {
+                "shift-u": "jupyter-notebook:move-cell-up",
+                "shift-d": "jupyter-notebook:move-cell-down"
+            }
+        }
+    }
+}

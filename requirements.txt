@@ -1,0 +1,11 @@
+jupyterthemes
+jupytext
+seaborn
+pydot
+scikit-learn
+kaggle
+tensorflow_datasets
+tensorboard-plugin-profile
+tensorflow-hub
+tensorflow-probability
+
