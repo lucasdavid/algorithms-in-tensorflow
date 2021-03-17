@@ -1,12 +1,6 @@
 # [![Tensorflow Logo](data/tf.png)](https://tensorflow.org) Algorithms in Tensorflow
 
-Experiments with tensorflow 2.0, gpu support,
-persistent logging and stable docker env.
-
-## Usage
-```shell
-./actions/run.sh {up,down,build}
-```
+Experiments with tensorflow 2.0, gpu support, persistent logging and stable docker env.
 
 ## Summary
 ### Supervised
@@ -42,3 +36,15 @@ persistent logging and stable docker env.
 | [Guided Gradient Backpropagation](notebooks/explaining/saliency-gradient-backpropagation-guided.ipynb) | saliency | Gradient-based explaining method considering positive intermediate gradients | [article](https://arxiv.org/pdf/1412.6806.pdf)  |
 | [Smooth Gradient Backpropagation](notebooks/explaining/saliency-gradient-backpropagation-smooth.ipynb) | saliency | Gradient-based explaining method with local-level gradient correction | [article](https://arxiv.org/pdf/1706.03825.pdf) |
 | [Full Gradient Representation](notebooks/explaining/saliency-gradient-backpropagation-full.ipynb) | saliency | Explaining using function linearization with gradient-based and bias information | [article](https://arxiv.org/pdf/1905.00780.pdf) |
+
+
+## Usage
+Code in this repository is kept inside jupyter notebooks, so any jupyter
+server will do. I added a docker-compose env to simplify things, which can
+be used as follows:
+```shell
+./actions/run.sh                                          # start jupyter notebook
+./actions.run.sh {up,down,build}                          # more compose commands
+./actions.run.sh exec experiments python path/to/file.py  # any commands, really
+./actions/run.sh tensorboard                              # start tensorboard
+```

@@ -4,8 +4,8 @@ seaborn
 pydot
 scikit-learn
 kaggle
+tensorflow
 tensorflow_datasets
 tensorboard-plugin-profile
 tensorflow-hub
 tensorflow-probability
-

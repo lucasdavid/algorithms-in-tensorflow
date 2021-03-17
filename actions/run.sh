@@ -5,7 +5,7 @@ run()
   CMD=${1:-up}
 
   if [[ "$CMD" == "up" ]]; then
-    docker-compose --env-file config/.env -f config/docker-compose.yml up -d
+    docker-compose --env-file config/.env -f config/docker-compose.yml up
   elif [[ "$CMD" == "tensorboard" ]]; then
     docker-compose --env-file config/.env -f config/docker-compose.yml \
                  exec experiments \
