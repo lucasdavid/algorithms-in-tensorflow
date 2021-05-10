@@ -1,4 +1,4 @@
-# [![Tensorflow Logo](data/tf.png)](https://tensorflow.org) Algorithms in Tensorflow
+# [![Tensorflow Logo](assets/tf.png)](https://tensorflow.org) Algorithms in Tensorflow
 
 Experiments with tensorflow 2.0, gpu support, persistent logging and stable docker env.
 

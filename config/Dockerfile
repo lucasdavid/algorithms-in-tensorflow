@@ -12,4 +12,4 @@ RUN pip install -qr /tmp/requirements.txt
 ADD config/notebook.json /root/.jupyter/nbconfig/notebook.json
 
 ARG jupyter_theme
-RUN jt -t $jupyter_theme
+RUN jt -t ${jupyter_theme}

@@ -1,4 +1,4 @@
 #!/bin/bash
 
-apt-get -qq update
-apt-get -qq install -y python-pydot python-pydot-ng graphviz
+apt-get update
+apt-get install -y python-pydot python-pydot-ng graphviz libgl1-mesa-glx

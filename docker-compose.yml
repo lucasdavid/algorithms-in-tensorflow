@@ -1,0 +1,22 @@
+version: '3'
+services:
+  experiments:
+    runtime: "${RUNTIME}"
+    build:
+      context: .
+      dockerfile: config/Dockerfile
+      args:
+        base_image: "${IMAGE_BASE}"
+        jupyter_theme: "${JUPYTER_THEME}"
+    image: "${IMAGE}"
+    mem_limit: 12g
+    ports:
+      - 8888:8888
+      - 6006:6006
+    volumes:
+      - ./notebooks:/tf
+      - ./logs:/tf/logs
+      - ./data:/data
+      - ./data/cached/keras:/root/.keras
+      - ./data/cached/tfds:/root/tensorflow_datasets
+      - ./secrets/kaggle:/root/.kaggle
