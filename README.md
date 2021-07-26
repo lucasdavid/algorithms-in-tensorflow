@@ -6,13 +6,14 @@ Experiments with tensorflow 2.0, gpu support, persistent logging and stable dock
 ### Supervised
 | Notebook | Kind | Description | References |
 | --- | --- | --- | --- |
-| [Intro](notebooks/supervised/classification/introduction.ipynb) | classification | Introduction over classification, using Logistic Regressison and training with Grid Search Cross-validation | [dataset](https://osf.io/ja9dw/) |
-| [Multi-class](notebooks/supervised/classification/multiclass.ipynb) | classification | Introduction to multi-class classification and examples | |
+| [Intro](notebooks/supervised/classification/1.intro.ipynb) | classification | Introduction over classification, using Logistic Regressison and training with Grid Search Cross-validation | [dataset](https://osf.io/ja9dw/) |
+| [Multi-class](notebooks/supervised/classification/2.multiclass.ipynb) | classification | Introduction to multi-class classification and examples | |
 | [Study of Churn](notebooks/supervised/classification/churn) | classification | Study over client churn behavior | |
 | [Study of Facts](notebooks/supervised/classification/facts) | classification | Study over a set of true and fake news | |
 | [Churn](notebooks/supervised/regression/intro.ipynb) | regression | Introduction over linear regression | |
 | [Study of Weather WW2](notebooks/supervised/regression/weather.ipynb) | regression | Instantial study over Weather information during WW2 | [dataset](https://www.kaggle.com/smid80/weatherww2/data) |
 | [cifar10](notebooks/supervised/fine-tuning/cifar10) | fine-tuning  classification | CNN fine-tuned from ImageNet to solve Cifar10 | [dataset](https://www.cs.toronto.edu/~kriz/cifar.html) |
+| [Barzinga](notebooks/supervised/fine-tuning/barzinga.ipynb) | fine-tuning classification | Classifying objects from a low-budget WebCAM | |
 | [best-artworks-of-all-time](notebooks/supervised/fine-tuning/best-artworks-of-all-time) | fine-tuning classification | Art authorship attribution fine-tuned from ImageNet | [BAoAT dataset](https://www.kaggle.com/ikarus777/best-artworks-of-all-time) |
 | [Study of Mapping Challenge](notebooks/supervised/segmentation/unet/mapping-challenge-efficientnetb4.ipynb) | semantic segmentation | Segmentation of construction satellite images using U-NET and EfficientNetB4 | [Mapping Challenge](https://www.crowdai.org/challenges/mapping-challenge)  |
 | [Study of Oxford IIT Pet](notebooks/supervised/segmentation/unet/oxford-iit-pet-mobilenetv2.ipynb) | semantic segmentation | Segmentation of dogs and cats from the `oxford_iit_pet` | [Oxford IIT Pet dataset](https://www.tensorflow.org/datasets/catalog/oxford_iiit_pet) |
