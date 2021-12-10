@@ -18,13 +18,19 @@ Experiments with tensorflow 2.0, gpu support, persistent logging and stable dock
 | [Study of Mapping Challenge](notebooks/supervised/segmentation/unet/mapping-challenge-efficientnetb4.ipynb) | semantic segmentation | Segmentation of construction satellite images using U-NET and EfficientNetB4 | [Mapping Challenge](https://www.crowdai.org/challenges/mapping-challenge)  |
 | [Study of Oxford IIT Pet](notebooks/supervised/segmentation/unet/oxford-iit-pet-mobilenetv2.ipynb) | semantic segmentation | Segmentation of dogs and cats from the `oxford_iit_pet` | [Oxford IIT Pet dataset](https://www.tensorflow.org/datasets/catalog/oxford_iiit_pet) |
 
-### UnsupervisedGradient-based
+### Unsupervised
 | Notebook | Kind | Description | References |
 | --- | --- | --- | --- |
 | [gatys](notebooks/unsupervised/style-transfer/gatys.ipynb) | style transfer | Style transfer between two arbitrary images | [article](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) |
 | [VaE Cifar10](notebooks/unsupervised/variational-autoencoder/vae-cifar10.ipynb) | variational autoencoder | VaE over Cifar10 and embedding of the set in the metric space | [tutorial](https://arxiv.org/pdf/1606.05908.pdf) |
 | [VaE Fashion MNIST](notebooks/unsupervised/variational-autoencoder/vae-fashion-mnist.ipynb) | variational autoencoder | VaE over Fashion MNIST | [tutorial](https://arxiv.org/pdf/1606.05908.pdf) |
 | [Contrastive loss](notebooks/unsupervised/contrastive/contrastive-loss.ipynb) | siamese network | Siamese CNN trained with contrastive loss | [article](https://arxiv.org/pdf/2012.09740.pdf) |
+
+### Knowledge Distillation
+| Notebook | Kind | Description | References |
+| --- | --- | --- | --- |
+| [vanilla](notebooks/knowledge-distillation/1-vanilla.ipynb) | Response-based Distillation | A small network is trained to emulate the output of a larger one. | [article](https://arxiv.org/abs/1503.02531) |
+| [FitNet](notebooks/knowledge-distillation/2-fitnet.ipynb) | Activation-based Distillation | A network better generalizes when regularized by a larger one. | [article](https://arxiv.org/abs/1503.02531) |
 
 ### Explaining
 | Notebook | Kind | Description | References |
